@@ -5,6 +5,7 @@
 	align-items: center;
 	padding-bottom: 90px;
 	margin-bottom: 115px;
+	width: 100%;
 }
 
 .feature__top {
@@ -13,6 +14,7 @@
 
 .feature__title {
 	font-size: 36px;
+	width: 100%;
 	max-width: 539px;
 	color: #2f281e;
 	text-align: center;
@@ -22,6 +24,7 @@
 	display: flex;
 	justify-content: space-between;
 	margin-bottom: 34px;
+	width: 100%;
 }
 
 .item {
@@ -59,11 +62,31 @@
 
 .effort__val {
 	display: flex;
+	justify-content: space-between;
+	width: 100%;
 }
 
 .effort__val__left {
 	max-width: 486px;
 }
 
-.effort__val__right {
+.effort__val__left h4 {
+	margin-bottom: 54px;
+	margin-top: 10px;
+	align-items: center;
+}
+
+.preamble {
+	margin: 0;
+}
+
+.sub__title,
+.preamble {
+	font-size: 16px;
+	color: #544837;
+}
+
+.effort__val__info {
+	color: #544837;
+	line-height: 1.6;
 }
