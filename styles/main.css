@@ -28,7 +28,7 @@
 	width: 240px;
 }
 
-.feature__middle__title {
+.item__title {
 	font-size: 22px;
 	color: #2f281e;
 }
@@ -55,4 +55,15 @@
 
 .sign__up__now:hover {
 	box-shadow: 0 0 7px rgba(0, 0, 0, 0.7);
+}
+
+.effort__val {
+	display: flex;
+}
+
+.effort__val__left {
+	max-width: 486px;
+}
+
+.effort__val__right {
 }
