@@ -3,3 +3,13 @@
 *::after {
 	box-sizing: content-box;
 }
+
+body {
+	font-family: 'Poppins', sans-serif;
+}
+
+.wrapper {
+	width: 100%;
+	max-width: 1126px;
+	margin: 0 auto;
+}
