@@ -6,6 +6,11 @@
 
 body {
 	font-family: 'Poppins', sans-serif;
+	margin: 10px;
+}
+
+p {
+	margin: 0;
 }
 
 .wrapper {
