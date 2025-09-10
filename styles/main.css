@@ -60,10 +60,20 @@
 	box-shadow: 0 0 7px rgba(0, 0, 0, 0.7);
 }
 
-.effort__val {
+.effort__val,
+.marketers,
+.product__managers {
 	display: flex;
 	justify-content: space-between;
 	width: 100%;
+}
+
+.marketers {
+	margin-bottom: 146px;
+}
+
+.effort__val {
+	margin-bottom: 100px;
 }
 
 .effort__val__left {
@@ -89,4 +99,40 @@
 .effort__val__info {
 	color: #544837;
 	line-height: 1.6;
+}
+
+.product__managers {
+	margin-bottom: 117px;
+}
+
+.prod__managers__right {
+	max-width: 486px;
+	display: flex;
+	align-items: center;
+}
+
+.bottom {
+	display: flex;
+	flex-direction: column;
+	margin-top: 30px;
+	flex: 1;
+
+	gap: 30px;
+}
+
+.bottom__top,
+.bottom__middle,
+.bottom__bottom {
+	display: flex;
+	align-items: center;
+	line-height: 1.6;
+	font-size: 16px;
+}
+
+.bottom_middle {
+	padding: 90px 0;
+}
+
+.check {
+	margin-right: 30px;
 }

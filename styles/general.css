@@ -19,4 +19,5 @@ h2 {
 	width: 100%;
 	max-width: 1120px;
 	margin: 0 auto;
+	border-bottom: solid 1px #bcd0e5;
 }
