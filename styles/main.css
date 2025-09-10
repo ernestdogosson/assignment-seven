@@ -1,0 +1,54 @@
+.feature {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.why {
+	font-size: 36px;
+	max-width: 539px;
+	color: #2f281e;
+	text-align: center;
+	margin-bottom: 54px;
+}
+
+.feature__middle {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 34px;
+}
+
+.feature__title {
+	font-size: 22px;
+	font-weight: 600;
+	color: #2f282e;
+}
+
+.item {
+	width: 240px;
+}
+
+.feature__item__info {
+	font-size: 16px;
+	font-weight: 500px;
+	color: #544837;
+	line-height: 1.6;
+}
+
+.sign__up__now {
+	font-size: 16px;
+	font-weight: bold;
+	padding: 11px 25px;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: all 0.15s;
+	border: none;
+	background-color: #ff9900;
+	color: #fff;
+	margin-right: 30px;
+}
+
+.sign__up__now:hover {
+	box-shadow: 0 0 7px rgba(0, 0, 0, 0.7);
+}
