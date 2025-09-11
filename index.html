@@ -25,210 +25,251 @@
 		<link rel="stylesheet" href="/styles/footer.css" />
 	</head>
 	<body>
-		<div class="wrapper">
-			<div class="navigation">
-				<div class="logo"><img src="/icons/Logo.svg" alt="logo" /></div>
-				<div class="navigation__right">
-					<div class="nav__bar">
-						<nav>
-							<ul>
-								<li><a href="#">Product</a></li>
-								<li><a href="#">Customers</a></li>
-								<li><a href="#">Pricing</a></li>
-								<li><a href="#">Resources</a></li>
-							</ul>
-						</nav>
-					</div>
-					<div class="nav__btns">
-						<button class="nav__btn sign__in">Sign In</button>
-						<button class="nav__btn sign__up">Sign Up</button>
-					</div>
+		<div class="container">
+			<nav class="navbar">
+				<div class="navbar__brand">
+					<img src="/icons/Logo.svg" alt="brand logo" />
 				</div>
-			</div>
+				<div class="navbar__content">
+					<ul>
+						<li><a href="#">Product</a></li>
+						<li><a href="#">Customers</a></li>
+						<li><a href="#">Pricing</a></li>
+						<li><a href="#">Resources</a></li>
+					</ul>
+				</div>
+				<div class="nav__actions">
+					<button class="btn btn-outline">Sign In</button>
+					<button class="btn btn-fill">Sign Up</button>
+				</div>
+			</nav>
 
-			<header>
-				<div class="header__left">
-					<h1 class="header__title">The Design Thinking superpowers</h1>
-					<p class="header__info">
+			<header class="hero">
+				<div class="hero__content">
+					<h1 class="hero__title">The Design Thinking superpowers</h1>
+					<p class="hero__description">
 						Tools, tutorials, design and innovation experts, all in one place!
 						The most intuitive way to imagine your next user experience.
 					</p>
-					<button class="get__started">Get started</button>
-					<a href="#" class="video__link"
+					<button class="btn btn-primary btn-large">Get started</button>
+					<a href="#" class="hero__video-link"
 						><i class="fa-solid fa-play"></i> watch the video</a
 					>
 				</div>
-				<div class="header__right">
+				<div class="hero__media">
 					<img src="/images/Image1.png" alt="three people jubilating" />
 				</div>
 			</header>
 
 			<main>
-				<section class="feature">
-					<div class="feature__top">
-						<h2 class="feature__title">
+				<section class="features">
+					<header class="features__header">
+						<h2 class="section-ctitle">
 							We design tools to unveil your superpowers
 						</h2>
-					</div>
+					</header>
 
-					<div class="feature__middle">
-						<div class="item">
-							<img class="icon" src="/icons/select.png" alt=" section icon" />
-							<h4 class="item__title">First click tests</h4>
-							<p class="feature__item__info">
+					<div class="features__grid">
+						<div class="feature-card">
+							<img
+								class="feature-card__icon"
+								src="/icons/select.png"
+								alt=" First click tests icon"
+							/>
+							<h3 class="feature-card__title">First click tests</h3>
+							<p class="feature-card__description">
 								While most people enjoy casino gambling.
 							</p>
 						</div>
-						<div class="item">
-							<img class="icon" src="/icons/infinity.png" alt="icon" />
-							<h4 class="item__title">Design surveys</h4>
-							<p class="feature__item__info">
+						<div class="feature-card">
+							<img
+								class="feature-card__icon"
+								src="/icons/infinity.png"
+								alt="Design surveys icon"
+							/>
+							<h3 class="feature-card__title">Design surveys</h3>
+							<p class="feature-card__description">
 								Sports betting, lottery and bingo playing for the fun
 							</p>
 						</div>
-						<div class="item">
-							<img class="icon" src="/icons/heart.png" alt="icon" />
-							<h4 class="item__title">Preference tests</h4>
-							<p class="feature__item__info">
+						<div class="feature-card">
+							<img
+								class="feature-card__icon"
+								src="/icons/heart.png"
+								alt="Preference tests icon"
+							/>
+							<h3 class="feature-card__title">Preference tests</h3>
+							<p class="feature-card__description">
 								The Myspace page defines the individual.
 							</p>
 						</div>
-						<div class="item">
-							<img class="icon" src="/icons/hour-glass.png" alt="icon" />
-							<h4 class="item__title">Five second test</h4>
-							<p class="feature__item__info">
+						<div class="feature-card">
+							<img
+								class="feature-card__icon"
+								src="/icons/hour-glass.png"
+								alt="Five second test icon"
+							/>
+							<h3 class="feature-card__title">Five second test</h3>
+							<p class="feature-card__description">
 								Personal choices and the overall personality of the person.
 							</p>
 						</div>
 					</div>
 
-					<div class="feature__bottom">
-						<button class="sign__up__now">Sign Up Now</button>
-					</div>
+					<footer class="features__footer">
+						<button class="btn btn-fill">Sign Up Now</button>
+					</footer>
 				</section>
 
-				<section class="effort__val">
-					<div class="effort__val__left">
-						<p class="preamble">Effortless validation for</p>
-						<h4 class="item__title">Design Professionals</h4>
-						<p class="effort__val__info">
+				<section class="benefits benefits-designers">
+					<div class="benefits__content">
+						<span class="benefits__label">Effortless validation for</span>
+						<h2 class="benefits__title">Design Professionals</h2>
+						<p class="benefits__description">
 							The Myspace page defines the individual, his or her
 							characteristics, traits, personal choices and the overall
 							personality of the person.
 						</p>
-						<h5 class="sub__title">Accessory makers</h5>
-						<p class="effort__val__info">
-							While most people enjoy casino gambling, sports betting, lottery
-							and bingo playing for the fun
-						</p>
-						<h5 class="sub__title">Alterationists</h5>
-						<p class="effort__val__info">
-							If you are looking for a new way to promote your business that
-							won’t cost you more money,
-						</p>
-						<h5 class="sub__title">Custom Design designers</h5>
-						<p class="effort__val__info">
-							If you are looking for a new way to promote your business that
-							won’t cost you more money,
-						</p>
-					</div>
-					<div class="effort__val__right">
-						<img src="/images/Image2.png" alt="a man chatting on a phone" />
-					</div>
-				</section>
-
-				<section class="product__managers">
-					<div class="prod__managers__right">
-						<img src="/images/Image3.png" alt="" />
-					</div>
-					<div class="prod__managers__right">
-						<div class="top">
-							<p class="preamble">Optimisation for</p>
-							<h4 class="item__title">Product Managers</h4>
-							<p class="effort__val__info">
-								The Myspace page defines the individual, his or her
-								characteristics, traits, personal choices and the overall
-								personality of the person.
-							</p>
-							<div class="bottom">
-								<div class="bottom__top">
-									<img class="check" src="/icons/tick.png" alt="" />
-									<p class="info">
-										Never worry about overpaying for your energy again.
-									</p>
-								</div>
-								<div class="bottom__middle">
-									<img class="check" src="/icons/tick.png" alt="" />
-									<p class="info">
-										We will only switch you to energy companies that we trust
-										and will treat you right
-									</p>
-								</div>
-								<div class="bottom__bottom">
-									<img class="check" src="/icons/tick.png" alt="" />
-									<p class="info">
-										We track the markets daily and know where the savings are.
-									</p>
-								</div>
+						<div class="benefits__list">
+							<div class="benefits-item">
+								<h3 class="benefits-item__title">Accessory makers</h3>
+								<p class="benefit-item__description">
+									While most people enjoy casino gambling, sports betting,
+									lottery and bingo playing for the fun
+								</p>
+							</div>
+							<div class="benefit-item">
+								<h3 class="benefit-item__title">Alterationists</h3>
+								<p class="benefit-item__description">
+									If you are looking for a new way to promote your business that
+									won't cost you more money,
+								</p>
+							</div>
+							<div class="benefit-item">
+								<h3 class="benefit-item__title">Custom Design designers</h3>
+								<p class="benefit-item__description">
+									If you are looking for a new way to promote your business that
+									won't cost you more money,
+								</p>
 							</div>
 						</div>
 					</div>
+					<div class="benefits__media">
+						<img src="/images/Image2.png" alt="A man chatting on a phone" />
+					</div>
 				</section>
 
-				<section class="marketers">
-					<div class="effort__val__left">
-						<p class="preamble">Optimisation for</p>
-						<h4 class="item__title">Marketers</h4>
-						<p class="effort__val__info">
+				<section class="benefits benefits--product-managers">
+					<div class="benefits__media">
+						<img src="/images/Image3.png" alt="A man working on a computer" />
+					</div>
+					<div class="benefits__content">
+						<span class="benefits__label">Optimisation for</span>
+						<h2 class="benefits__title">Product Managers</h2>
+						<p class="benefits__description">
+							The Myspace page defines the individual, his or her
+							characteristics, traits, personal choices and the overall
+							personality of the person.
+						</p>
+						<ul class="checklist">
+							<li class="checklist__item">
+								<img
+									class="checklist__icon"
+									src="/icons/tick.png"
+									alt="checkmark"
+								/>
+								<span class="checklist__text">
+									Never worry about overpaying for your energy again.
+								</span>
+							</li>
+							<li class="checklist__item">
+								<img
+									class="checklist__icon"
+									src="/icons/tick.png"
+									alt="checkmark"
+								/>
+								<span class="checklist__text">
+									We will only switch you to energy companies that we trust and
+									will treat you right
+								</span>
+							</li>
+							<li class="checklist__item">
+								<img
+									class="checklist__icon"
+									src="/icons/tick.png"
+									alt="checkmark"
+								/>
+								<span class="checklist__text">
+									We track the markets daily and know where the savings are.
+								</span>
+							</li>
+						</ul>
+					</div>
+				</section>
+
+				<section class="benefits benefits--marketers">
+					<div class="benefits__content">
+						<span class="benefits__label">Optimisation for</span>
+						<h2 class="benefits__title">Marketers</h2>
+						<p class="benefits__description">
 							Few would argue that, despite the advancements of feminism over
 							the past three decades, women still face a double standard when it
 							comes to their behavior.
 						</p>
-						<h5 class="sub__title">Accessory makers</h5>
-						<p class="effort__val__info">
-							While most people enjoy casino gambling, sports betting, lottery
-							and bingo playing for the fun
-						</p>
-						<h5 class="sub__title">Alterationists</h5>
-						<p class="effort__val__info">
-							If you are looking for a new way to promote your business that
-							won’t cost you more money,
-						</p>
-						<h5 class="sub__title">Custom Design designers</h5>
-						<p class="effort__val__info">
-							If you are looking for a new way to promote your business that
-							won’t cost you more money,
-						</p>
+						<div class="benefits__list">
+							<div class="benefit-item">
+								<h3 class="benefit-item__title">Accessory makers</h3>
+								<p class="benefit-item__description">
+									While most people enjoy casino gambling, sports betting,
+									lottery and bingo playing for the fun
+								</p>
+							</div>
+							<div class="benefit-item">
+								<h3 class="benefit-item__title">Alterationists</h3>
+								<p class="benefit-item__description">
+									If you are looking for a new way to promote your business that
+									won't cost you more money,
+								</p>
+							</div>
+							<div class="benefit-item">
+								<h3 class="benefit-item__title">Custom Design designers</h3>
+								<p class="benefit-item__description">
+									If you are looking for a new way to promote your business that
+									won't cost you more money,
+								</p>
+							</div>
+						</div>
 					</div>
-					<div class="marketers__right">
-						<img src="/images/Image4.png" alt="" />
+					<div class="benefits__media">
+						<img src="/images/Image4.png" alt="Marketing analytics dashboard" />
 					</div>
 				</section>
 			</main>
-			<footer>
-				<div class="footer__left">
-					<img src="/icons/Logo.svg" alt="logo" class="foot__logo" />
+
+			<footer class="site-footer">
+				<div class="site-footer__brand">
+					<img src="/icons/Logo.svg" alt="logo" class="site-footer__logo" />
 				</div>
-				<div class="footer__right">
-					<div class="right__foot__left">
-						<ul class="foot__nav">
+				<div class="site-footer__content">
+					<nav class="footer-nav">
+						<ul class="footer-nav__list">
 							<li><a href="#">About Us</a></li>
 							<li><a href="#">Blog</a></li>
 							<li><a href="#">Contact</a></li>
 							<li><a href="#">FAQ</a></li>
 						</ul>
-					</div>
-					<div class="right__foot__middle">
-						<ul class="foot__nav">
+					</nav>
+					<nav class="footer-nav">
+						<ul class="foot-nav__list">
 							<li><a href="#">Disclaimer</a></li>
 							<li><a href="#">Financing</a></li>
 							<li><a href="#">Privacy Policy</a></li>
 							<li><a href="#">Terms of Service</a></li>
 						</ul>
-					</div>
-					<div class="right__foot__right">
-						<input type="text" />
-						<button class="sign__up__now">Sign Up Now</button>
+					</nav>
+					<div class="newsletter">
+						<input type="email" class="newsletter__input" />
+						<button class="btn btn-fill">Sign Up Now</button>
 					</div>
 				</div>
 			</footer>
