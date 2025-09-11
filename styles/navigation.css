@@ -1,4 +1,4 @@
-.navigation {
+.navbar {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -7,73 +7,82 @@
 	margin-bottom: 30px;
 }
 
-.navigation__right {
+.navbar__actions {
+	display: flex;
+	align-items: center;
+}
+
+.navbar__brand {
+	flex: 1;
+}
+.navbar__content {
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
 	flex: 1.5;
 }
 
-.logo {
-	flex: 1;
-}
-
-.nav__bar {
-	display: flex;
-	margin-right: 29px;
-	flex: 1;
-}
-
-nav {
+.navbar__content ul {
 	width: 100%;
 	justify-content: end;
+	margin-right: 29px;
 }
 
-nav > ul {
+.navbar__content ul {
 	display: flex;
 	list-style: none;
 	justify-content: space-around;
 	cursor: pointer;
 }
 
-ul > li > a {
+.navbar__content ul li a {
 	text-decoration: none;
 	color: #2f281e;
 	font-size: 14px;
 	transition: all 0.25s; /*check proper placement*/
 }
 
-li:hover {
+.navbar__content ul li:hover {
 	transform: scale(1.2);
 	text-decoration: underline;
 }
 
-.sign__in,
-.sign__up {
+.btn {
 	font-size: 16px;
 	font-weight: 600;
 	padding: 11px 25px;
 	border-radius: 4px;
 	cursor: pointer;
 	transition: all 0.15s;
+	text-decoration: none;
+	display: inline-block;
+	text-align: center;
 }
 
-.sign__in {
+.btn-outline {
 	border: solid 1px #bcd0e5;
 	background-color: #fff;
 	margin-right: 14px;
 }
 
-.sign__in:hover {
+.btn-outline:hover {
 	box-shadow: 0 0 7px rgba(0, 0, 0, 0.7);
 }
 
-.sign__up {
+.btn-outline:active {
+	background-color: #bcd0e5;
+}
+
+.btn-fill {
 	border: none;
 	background-color: #ff9900;
 	color: #fff;
 }
 
-.sign__up:hover {
+.btn-fill:hover {
 	box-shadow: 0 0 7px rgba(0, 0, 0, 0.7);
+}
+
+.btn-fill:active {
+	color: #ffa800;
 }
